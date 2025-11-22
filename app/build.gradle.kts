@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.speech_to_text"
+    namespace = "com.example.jarvis"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.speech_to_text"
+        applicationId = "com.example.jarvis"
         minSdk = 30
         targetSdk = 36
         versionCode = 1
