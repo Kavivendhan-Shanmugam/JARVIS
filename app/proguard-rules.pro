@@ -19,3 +19,11 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Keep all classes in the com.spotify package
+-keep class com.spotify.** { *; }
+-dontwarn com.spotify.**
+
+# Keep all classes in the com.google.gson package
+-keep class com.google.gson.** { *; }
+-dontwarn com.google.gson.**
