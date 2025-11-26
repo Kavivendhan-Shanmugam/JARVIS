@@ -1,0 +1,2 @@
+toml
+app-remote-release = { group = "(", name = "app-remote-release", version.ref = "appRemoteRelease" }
